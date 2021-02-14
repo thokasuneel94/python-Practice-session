@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onWindowChange",
+    "json.schemas": [
+        "python.pythonPath": "suneel/bin/python",
+    ]
+}
