@@ -70,6 +70,10 @@ def Hello(a,b):
 print(Hello(16,67))
 
 
+print("hi")
+print(1+6)
+
+
 
 
 
