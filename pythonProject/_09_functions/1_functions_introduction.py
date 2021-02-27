@@ -22,7 +22,9 @@
 
 # defining a function
 # calling a function
+
 # write  a function once and calling function multiple times.
+
 # defining a function:
 
 # def keyword is used to define function
@@ -103,6 +105,7 @@ def wish(name="guest"):
     print("hello",name,"good evening")
 wish("sunny")
 wish()
+#
 def wish(marks,age,name="guest",msg="good morning"):    # default arg should be last
     print("student name:",name)
     print("student age:",age)
@@ -176,7 +179,7 @@ f(arg4=2,arg1=3,arg2=4)
 # f()                             typeerror
 # f(arg3=10,arg4=40,20,30)        syntaxerror
 
-
+print("hello world")
 
 
 

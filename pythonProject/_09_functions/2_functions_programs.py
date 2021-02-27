@@ -135,6 +135,7 @@ f2()
 # global keyword:
 # to make global variable  to the function so that we can perform our required modifications.
 # to declare global variables inside function.
+#
 a=10
 def f1():
     global a
@@ -144,6 +145,7 @@ def f2():
     print("f2:",a)
 f1()
 f2()
+#
 a=10
 def f1():
     global a
@@ -188,6 +190,7 @@ def f3():
 f1()
 f2()
 f3()
+# global and local variable names same
 a=10
 def f1():
     a=20
