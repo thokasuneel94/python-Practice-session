@@ -1,0 +1,14 @@
+10/03/21 08:16:42:PM:INFO:a new request came
+10/03/21 08:16:55:PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject\_18_logging\demo11.py", line 10, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+10/03/21 08:16:55:PM:INFO:request processing completed
+10/03/21 08:17:44:PM:INFO:a new request came
+10/03/21 08:17:54:PM:ERROR:invalid literal for int() with base 10: 'ru'
+Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject\_18_logging\demo11.py", line 9, in <module>
+    y=int(input("enter second number:"))
+ValueError: invalid literal for int() with base 10: 'ru'
+10/03/21 08:17:54:PM:INFO:request processing completed
